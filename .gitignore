@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pth
+*.pkl
+.env
+data/
+models/
+output/
+docker/supplier_with_email.csv
+docker/supplier_with_email.xlsx
