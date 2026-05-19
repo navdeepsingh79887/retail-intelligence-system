@@ -169,12 +169,12 @@ All outputs below are from live API responses running via Docker on localhost.
   <table>
     <tr>
       <td align="center">
-        <img src="docs/screenshots/01_model_info_api.png" width="480"/><br/>
+        <img src="docs/01_model_info_api.png" width="480"/><br/>
         <b>Model Info — GET /api/forecast/model-info</b><br/>
         <sub>MAE: 1.085 | RMSE: 1.288 | Top feature: is_weekend (0.4164)</sub>
       </td>
       <td align="center">
-        <img src="docs/screenshots/02_forecast_train_api.png" width="480"/><br/>
+        <img src="docs/02_forecast_train_api.png" width="480"/><br/>
         <b>Forecast Train — POST /api/forecast/train</b><br/>
         <sub>Status: success | 14 features used | Model persisted to disk</sub>
       </td>
@@ -189,24 +189,24 @@ All outputs below are from live API responses running via Docker on localhost.
   <table>
     <tr>
       <td align="center">
-        <img src="docs/screenshots/03_inventory_restock_api.png" width="480"/><br/>
+        <img src="docs/03_inventory_restock_api.png" width="480"/><br/>
         <b>Inventory Restock — GET /api/decisions/restock</b><br/>
         <sub>🔴 CRITICAL | Tata Tea Gold | Stock: 257 | Reorder: 1170 | Deadline: 2026-04-28</sub>
       </td>
       <td align="center">
-        <img src="docs/screenshots/04_restock_agent_run.png" width="480"/><br/>
+        <img src="docs/04_restock_agent_run.png" width="480"/><br/>
         <b>Restock Agent Run — POST /api/agents/restock/run</b><br/>
         <sub>Store: BBS-01 | Orders: 10 | Critical: 10 | Value: ₹31,76,263.62</sub>
       </td>
     </tr>
     <tr>
       <td align="center">
-        <img src="docs/screenshots/05_restock_notify_agent.png" width="480"/><br/>
+        <img src="docs/05_restock_notify_agent.png" width="480"/><br/>
         <b>Restock Notify — POST /api/agents/restock/notify</b><br/>
         <sub>44 products at risk | 50 orders | ₹1,01,66,375 | WhatsApp + Telegram</sub>
       </td>
       <td align="center">
-        <img src="docs/screenshots/06_expiry_notify_agent.png" width="480"/><br/>
+        <img src="docs/06_expiry_notify_agent.png" width="480"/><br/>
         <b>Expiry Notify — POST /api/agents/expiry/notify</b><br/>
         <sub>🔴 131 products expire in 7 days | ₹85,02,313 at risk | Discount: 40–50%</sub>
       </td>
@@ -221,19 +221,19 @@ All outputs below are from live API responses running via Docker on localhost.
   <table>
     <tr>
       <td align="center">
-        <img src="docs/screenshots/07_decisions_low_margin.png" width="480"/><br/>
+        <img src="docs/07_decisions_low_margin.png" width="480"/><br/>
         <b>Low Margin — GET /api/decisions/low-margin</b><br/>
         <sub>🔴 Olive Oil | Margin: -106.94% | Selling below cost | Action: Renegotiate</sub>
       </td>
       <td align="center">
-        <img src="docs/screenshots/08_decisions_expiry_alerts.png" width="480"/><br/>
+        <img src="docs/08_decisions_expiry_alerts.png" width="480"/><br/>
         <b>Expiry Alerts — GET /api/decisions/expiry-alerts</b><br/>
         <sub>Liquid Detergent | 5 days left | Clearance: ₹113.3 | Discount: 45% | IMMEDIATE</sub>
       </td>
     </tr>
     <tr>
       <td colspan="2" align="center">
-        <img src="docs/screenshots/09_decisions_stockouts.png" width="480"/><br/>
+        <img src="docs/09_decisions_stockouts.png" width="480"/><br/>
         <b>Stockout Detection — GET /api/decisions/stockouts</b><br/>
         <sub>Atta | BBS-01 | Stock: 22 | Safety stock: 30 | Supplier: Ms. Kavya Mehta | Lead: 5 days</sub>
       </td>
@@ -248,12 +248,12 @@ All outputs below are from live API responses running via Docker on localhost.
   <table>
     <tr>
       <td align="center">
-        <img src="docs/screenshots/10_analytics_seasonal_1.png" width="480"/><br/>
+        <img src="docs/10_analytics_seasonal_1.png" width="480"/><br/>
         <b>Seasonal Analytics — GET /api/analytics/taste/seasonal</b><br/>
         <sub>Winter #1: Oils — 142 units | ₹1,10,656 | #2: Packaged Foods | #3: Cleaning</sub>
       </td>
       <td align="center">
-        <img src="docs/screenshots/11_analytics_seasonal_2.png" width="480"/><br/>
+        <img src="docs/11_analytics_seasonal_2.png" width="480"/><br/>
         <b>Seasonal Analytics (continued)</b><br/>
         <sub>#4: Breakfast — 219 units | ₹59,719 | Seasonal demand ranking per category</sub>
       </td>
