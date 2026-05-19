@@ -22,7 +22,7 @@ services:
     container_name: retail_db
     environment:
       POSTGRES_USER: retail_user
-      POSTGRES_PASSWORD: retail_pass
+      POSTGRES_PASSWORD: www.www
       POSTGRES_DB: retail_db
     ports:
       - "5432:5432"
